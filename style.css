@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace !important;
+    min-height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.markdown-body {
+    box-sizing: border-box;
+    width: 95%;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+@media (max-width: 767px) {
+    .markdown-body {
+        padding: 15px;
+    }
+}
+
+footer{
+    min-height: 20px;
+    bottom: 0;
+    padding: 15px;
+}
